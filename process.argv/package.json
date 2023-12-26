@@ -1,0 +1,11 @@
+{
+  "name": "process.argv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "anam": "index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
