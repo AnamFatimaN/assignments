@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>SR. no.</th>
+                    <th>name</th>
+                    <th>book name</th>
+                    <th>author</th>
+                    <th>date</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <% for (var i=0; i < books.length; i++){ %>
+                    <tr>
+                        <td>
+                            <%= i + 1 %>
+                        </td>
+                        <td>
+                            <%= books[i].users%>
+                        </td>
+                        <td>
+                            <%= books[i].name %>
+                        </td>
+                        <td>
+                            <%= books[i].author %>
+                        </td>
+                        <td>
+                            <%= books[i].date %>
+                        </td>
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
